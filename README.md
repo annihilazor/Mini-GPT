@@ -7,31 +7,30 @@ This project follows core architectural principles of GPT-2 (124M) and shows exa
 
 ## Features
 
-### 🔤 **Custom Tokenizer**
+###   **Custom Tokenizer**
 - Byte Pair Encoding (BPE) implemented from scratch  
 - Converts raw text into subword tokens  
 - Reversible encoding/decoding pipeline  
 
-### 🏗️ **Model Architecture**
+###   **Model Architecture**
 - Token embeddings + positional embeddings  
 - Multi-head **causal** self-attention  
 - LayerNorm, GELU, and residual connections  
 - Fully implemented Transformer blocks  
 - GPT-2–style architecture in PyTorch  
 
-### 📚 **Training Pipeline**
+###   **Training Pipeline**
 - Input–target data pair generation  
 - Full pre-training loop coded manually  
 - Cross-entropy loss for next-token prediction  
 - Model evaluation on real text data  
 
-### ✨ **Text Generation**
+###   **Text Generation**
 - Temperature scaling  
 - Top-k sampling  
 - Auto-regressive next-token generation  
 
 ---
 
-## 📂 Project Structure
 
 
